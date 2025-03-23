@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +32,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: whitergb(5, 0, 0);
+  text-align: center;
+  color: white;
+}
+
+/* styles.css */
+.card {
+  background-color: #f8f9fa; /* Cor de fundo do card */
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3.text-center {
+  color: #007bff; /* Cor do título */
+}
+
+.form-control {
+  border: 1px solid #007bff; /* Cor da borda dos campos */
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
+}
+
+.btn-success {
+  background-color: #28a745; /* Cor de fundo do botão salvar */
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Cor do botão salvar ao passar o mouse */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Cor de fundo do botão cancelar */
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Cor do botão cancelar ao passar o mouse */
+}
+
+.alert-info {
+  background-color: #d1ecf1; /* Cor de fundo da mensagem de info */
+  color: #0c5460; /* Cor do texto da mensagem */
+  border-color: #bee5eb;
 }
