@@ -45,9 +45,9 @@ class ListPaperComponent extends Component {
     render() {
         return (
             <div>
-                <h2 className="text-center">Lista de Papers</h2>
+                <h2 className="text-center">Lista de Palestras</h2>
                 <div className="row">
-                    <button className="btn btn-primary" onClick={this.addPaper}>Adicionar Paper</button>
+                    <button className="btn btn-primary" onClick={this.addPaper}>Adicionar Palestra</button>
                 </div>
                 <br />
                 <div className="row">

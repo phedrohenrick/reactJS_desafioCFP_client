@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const USER_API_BASE_URL = "/api/paper";
+const USER_API_BASE_URL = "https://hearty-patience-production.up.railway.app/api/paper";
 
 class PaperService {
 
