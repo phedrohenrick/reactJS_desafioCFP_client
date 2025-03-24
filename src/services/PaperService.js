@@ -6,7 +6,8 @@ const USER_API_BASE_URL = "https://hearty-patience-production.up.railway.app/api
 class PaperService {
 
     getPapers(){
-        return axios.get(USER_API_BASE_URL + '/list');
+        return axios.get(USER_API_BASE_URL + '/list',{withCredentials: true});
+       
     }
 
     createPaper(paper){
