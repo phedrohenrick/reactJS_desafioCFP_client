@@ -112,7 +112,7 @@ const CreateOrUpdatePaperComponent = () => {
                   onClick={() => navigate('/list')}
                   style={{ marginLeft: '10px' }}
                 >
-                  Cancelar
+                  Listar
                 </button>
               </form>
             </div>
