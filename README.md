@@ -48,7 +48,9 @@ npm start
 ```
 
 Principais Dependências
-O projeto utiliza as seguintes bibliotecas:
+⚠️ se o projeto reclamar e se precisar instalar manualmente, execute os seguintes comandos:
+
+O projeto utiliza as seguintes bibliotecas :
 
 📌 Axios - Para realizar chamadas HTTP à API:
 
@@ -66,7 +68,6 @@ npm install bootstrap
 ```sh
 npm install react-router-dom
 ```
-Se precisar instalar manualmente, execute os comandos acima.
 
 
 A aplicação será aberta no navegador padrão em:
