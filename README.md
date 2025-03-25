@@ -87,3 +87,11 @@ Por padrão, o client consumirá a API em produção. Caso queira apontar para u
 
 Caso precise testar manualmente, pode utilizar Postman para enviar requisições à API.
 
+
+## 🌟 Conheça Meu Portfólio
+
+Convido você a conhecer mais sobre meus  outros projetos que desenvolvi. Acesse meu portfólio e veja minhas criações!
+
+🔗[Meu Portfólio](https://www.phedrohenrick-portifolio.com.br/)
+
+Fique à vontade para explorar, dar feedbacks e entrar em contato! 🚀
