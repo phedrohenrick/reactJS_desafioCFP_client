@@ -16,7 +16,7 @@ Este projeto é um **client frontend** desenvolvido em **React.js** para interag
 
 Antes de começar, verifique se possui os seguintes requisitos:  
 
-✅ **Node.js** instalado (recomendado: versão LTS)  
+✅ **[Node.js](https://nodejs.org/en/download)** instalado (recomendado: versão LTS)  
 ✅ **Git** instalado para clonar o repositório  
 
 Se não tiver o **Node.js**, pode instalá-lo a partir de [aqui](https://nodejs.org/).  
