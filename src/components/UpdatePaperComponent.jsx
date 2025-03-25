@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import PaperService from '../services/PaperService';
+import PaperService from '../service/PaperService';
 
 const UpdatePaperComponent = () => {
   const { id } = useParams(); // Pega o ID da URL

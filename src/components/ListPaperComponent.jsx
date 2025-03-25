@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from '../utils/withRouter';
-import PaperService from '../services/PaperService';
+import PaperService from '../service/PaperService';
 
 class ListPaperComponent extends Component {
     constructor(props) {

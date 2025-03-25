@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 
-const USER_API_BASE_URL = "https://hearty-patience-production.up.railway.app/api/paper";
+const USER_API_BASE_URL = "/api/paper";
 
 class PaperService {
 
     getPapers(){
-        return axios.get(USER_API_BASE_URL + '/list',{withCredentials: true});
+        return axios.get(USER_API_BASE_URL + '/list');
        
     }
 
