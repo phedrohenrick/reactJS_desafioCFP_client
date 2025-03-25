@@ -34,7 +34,7 @@ git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO_FRONTEND.git
 cd SEU_REPOSITORIO_FRONTEND
 ```
 ### 🔹 **2. instalar as dependências**  
-Se você tem o Node.js e o npm instalados, execute:
+Se você tem o Node.js e o npm instalados, va ate /reactJS_desafioCFP_client-main, execute:
 
 ```sh
 npm install
