@@ -85,18 +85,5 @@ Por padrão, o client consumirá a API em produção. Caso queira apontar para u
 
 ⚠️ Após alterar o arquivo, reinicie o servidor para aplicar as mudanças!
 
-##📝 Estrutura do Projeto
-
-📂 src/
- ├── 📂 components/   # Componentes reutilizáveis
- ├── 📂 services/     # Configuração do Axios para requisições à API
- ├── 📂 utils/       # navegação do projeto
- ├── App.js          # Componente principal
- ├── index.js        # Ponto de entrada do React
- ├── .env            # Configuração da URL da API
- └── package.json    # Dependências e configurações do projeto
-✅ Testando a API
-
-
 Caso precise testar manualmente, pode utilizar Postman para enviar requisições à API.
 
