@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# 🌍 Client React.js - Interface para a API Quarkus  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um **client frontend** desenvolvido em **React.js** para interagir com a API construída em **Quarkus**. Ele permite consumir os serviços da API, enviar requisições e exibir os dados de forma amigável.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Tecnologias Utilizadas  
 
-### `npm start`
+- **React.js** - Biblioteca para construção de interfaces web.  
+- **Axios** - Cliente HTTP para requisições à API.  
+- **Bootstrap** - Framework CSS para estilização responsiva.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  Pré-requisitos  
 
-### `npm test`
+Antes de começar, verifique se possui os seguintes requisitos:  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ **Node.js** instalado (recomendado: versão LTS)  
+✅ **Git** instalado para clonar o repositório  
 
-### `npm run build`
+Se não tiver o **Node.js**, pode instalá-lo a partir de [aqui](https://nodejs.org/).  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Siga os passos abaixo para baixar e rodar o projeto corretamente:  
 
-### `npm run eject`
+### 🔹 **1. Clonar o repositório**  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO_FRONTEND.git
+cd SEU_REPOSITORIO_FRONTEND
+```
+### 🔹 **2. instalar as dependências**  
+Se você tem o Node.js e o npm instalados, execute:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Executando o Projeto
+Para rodar a aplicação localmente:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm start
+```
+A aplicação será aberta no navegador padrão em:
 
-## Learn More
+```sh
+http://localhost:3001
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##⚙️ Configuração da API
+Por padrão, o client consumirá a API em produção. Caso queira apontar para uma API local ou outra URL, edite o arquivo package.json na raiz do projeto:
 
-### Code Splitting
+```sh
+  "proxy": "http://localhost:8080"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+⚠️ Após alterar o arquivo, reinicie o servidor para aplicar as mudanças!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Principais Dependências
+O projeto utiliza as seguintes bibliotecas:
 
-### Making a Progressive Web App
+📌 Axios - Para realizar chamadas HTTP à API:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+npm install axios
+```
 
-### Advanced Configuration
+📌 Bootstrap - Para estilização da interface:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+npm install bootstrap
+```
+Se precisar instalar manualmente, execute os comandos acima.
 
-### Deployment
+##📝 Estrutura do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📂 src/
+ ├── 📂 components/   # Componentes reutilizáveis
+ ├── 📂 services/     # Configuração do Axios para requisições à API
+ ├── 📂 utils/       # navegação do projeto
+ ├── App.js          # Componente principal
+ ├── index.js        # Ponto de entrada do React
+ ├── .env            # Configuração da URL da API
+ └── package.json    # Dependências e configurações do projeto
+✅ Testando a API
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Caso precise testar manualmente, pode utilizar Postman para enviar requisições à API.
+
