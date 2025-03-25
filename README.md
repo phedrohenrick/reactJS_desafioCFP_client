@@ -39,9 +39,9 @@ Se você tem o Node.js e o npm instalados, va ate /reactJS_desafioCFP_client-mai
 ```sh
 npm install
 ```
-
+acesse o codigo em algum editor de texto de sua preferência, como o vscode.
 ## Executando o Projeto
-Para rodar a aplicação localmente:
+Para rodar a aplicação localmente, acesse um terminal no vscode e escreva:
 
 ```sh
 npm start
