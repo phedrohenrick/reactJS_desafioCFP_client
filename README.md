@@ -77,7 +77,9 @@ http://localhost:3001
 ```
 
 ## ⚙️ Configuração da API
-Por padrão, o client consumirá a API em produção. Caso queira apontar para uma API local ou outra URL, edite o arquivo package.json na raiz do projeto:
+Por padrão, o client consumirá a API em produção, ou seja, assim que startar ja poderá testar a api. 
+
+Caso queira apontar para uma API local ou outra URL, edite o arquivo package.json na raiz do projeto:
 
 ```sh
   "proxy": "http://localhost:8080"
