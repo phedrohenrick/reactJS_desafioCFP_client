@@ -46,8 +46,30 @@ Para rodar a aplicação localmente:
 ```sh
 npm start
 ```
-A aplicação será aberta no navegador padrão em:
 
+Principais Dependências
+O projeto utiliza as seguintes bibliotecas:
+
+📌 Axios - Para realizar chamadas HTTP à API:
+
+```sh
+npm install axios
+```
+
+📌 Bootstrap - Para estilização da interface:
+
+```sh
+npm install bootstrap
+```
+📌 react-router-dom - Para configuração das rotas:
+
+```sh
+npm install react-router-dom
+```
+Se precisar instalar manualmente, execute os comandos acima.
+
+
+A aplicação será aberta no navegador padrão em:
 ```sh
 http://localhost:3001
 
@@ -62,22 +84,6 @@ Por padrão, o client consumirá a API em produção. Caso queira apontar para u
 ```
 
 ⚠️ Após alterar o arquivo, reinicie o servidor para aplicar as mudanças!
-
- Principais Dependências
-O projeto utiliza as seguintes bibliotecas:
-
-📌 Axios - Para realizar chamadas HTTP à API:
-
-```sh
-npm install axios
-```
-
-📌 Bootstrap - Para estilização da interface:
-
-```sh
-npm install bootstrap
-```
-Se precisar instalar manualmente, execute os comandos acima.
 
 ##📝 Estrutura do Projeto
 
