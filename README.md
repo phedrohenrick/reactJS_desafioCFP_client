@@ -72,7 +72,7 @@ npm install react-router-dom
 
 A aplicação será aberta no navegador padrão em:
 ```sh
-http://localhost:3001
+http://localhost:3000
 
 ```
 
