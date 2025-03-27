@@ -77,7 +77,7 @@ http://localhost:3000
 ```
 
 ## ⚙️ Configuração da API
-Por padrão, o client consumirá a API em produção, ou seja, assim que startar ja poderá testar a api. 
+Por padrão, o client consumirá a API em produção, ou seja, assim que startar esse projeto reactjs já poderá testar a api quarkus. 
 
 Caso queira apontar para uma API local ou outra URL, edite o arquivo package.json na raiz do projeto:
 
